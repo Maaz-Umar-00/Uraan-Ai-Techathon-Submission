@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+
+# IDEs
+.vscode/
+.idea/
+
+# Data and models (if you prefer to keep models out of git, uncomment)
+# *.pkl
+# data/
+
+# OS
+.DS_Store
+
+# Streamlit
+.streamlit/

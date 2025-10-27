@@ -1,0 +1,6 @@
+streamlit>=1.18
+pandas>=1.5
+scikit-learn>=1.0
+joblib>=1.2
+numpy>=1.22
+# Add other dependencies if your model needs them (e.g., category_encoders)
