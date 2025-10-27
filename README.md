@@ -148,3 +148,50 @@ PSDP/
 │── model_features.pkl                 # Feature structure
 │── requirements.txt                   # Dependencies
 │── README.md                          # Documentation
+
+
+```markdown
+---
+
+## ⚙️ **How to Run Locally**
+
+Follow these steps to set up and run the PSDP Insight AI project on your local machine.
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/your-username/psdp-insight-ai.git
+cd psdp-insight-ai
+```
+
+### 2️⃣ Create and Activate a Virtual Environment
+
+```bash
+conda create -n psdp_env python=3.10
+conda activate psdp_env
+```
+
+*(or use `python -m venv venv` and `venv\Scripts\activate` on Windows)*
+
+### 3️⃣ Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4️⃣ Run the EDA Dashboard (Lovable / Bolt)
+
+If you want to open the  **interactive visual dashboard** , upload your data and chart files to [Lovable](https://lovable.app/) or your Bolt workspace and run:
+
+```bash
+bolt dev
+```
+
+### 5️⃣ Run the AI Prediction App (Streamlit)
+
+Launch the Machine Learning model locally:
+
+```bash
+streamlit run 04_dashboard.py
+```
+
+Once it runs successfully, open the provided **localhost link** in your browser (usually [http://localhost:8501](http://localhost:8501/)).
